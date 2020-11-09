@@ -28,15 +28,7 @@ def easy():
 
 choicest = ["The quick brown fox jumped over the large dog.", "The housing crash was caused by big banks giving out bad loans to almost every.", "Amazon's stock price nearly doubled since the crash "]
 
-#def hardt(choices):
-#    sel = choice(choicest)
-#    sel_stripped = sel.lower().translate(str.maketrans('', '', punctuation))
-#    sel_list = sel_stripped.split()
-#    sel_user = input(f"Unscramble: {', '.join(sample(sel_list, len(sel_list)))}\n")
-#    print('Correct! ' if sel_user == sel_stripped else 'Incorrect. ', end='')
-#    print(f'The phrase was: "{sel}"')
-#    hardt(choicest)
-#choices = ["The cat runs.", "The ice cream is melting.", "Iron Man can beat Batman."]
+
 
 def easyt():
     sel = choicesel = choice(["The cat runs.", "The ice cream is melting.", "Iron Man can beat Batman." "The ice cream is melting", "You got a friend in me", "Thats all folks", "dont panic"])
@@ -69,8 +61,7 @@ def meduimt():
 
 
 
-    #print("speak the sentence in the right order :")
-#hardt(choicest)
+
 r = sr.Recognizer()
 def record_audio(ask = False):
     if ask:
